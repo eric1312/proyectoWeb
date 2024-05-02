@@ -41,7 +41,7 @@ header nav {
 
 .fila {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: center;
 }
 
@@ -232,6 +232,7 @@ main #section1 {
 #section1 .Welcome article.fotos{
     position: relative;
     background: #f5f5f5;
+    background: transparent;
 }
 
 .Welcome article.fotos div{
@@ -420,3 +421,4 @@ main #section1 {
 #section3 .card-vertical:hover p{
     color: #ffffff;
 }
+
